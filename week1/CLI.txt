@@ -1,0 +1,13 @@
+Answer1: 
+I created a folder Hidden.
+To hide folder Hidden: attrib +h C:\Users\Admin\Hidden
+
+To display this: Dir -Force OR ls -Force
+
+Answer 2:
+mkdir these/folders/are/just/for/fun
+
+Answer 3:
+Existing file's name is "greetings.txt", content is "first message". So to append "second message"
+echo "second message" >> "greetings.txt"
+

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bground.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#header {
+    text-align: center;
+    background-image: url(header_img.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: aliceblue;
+    padding-bottom: 10px
+    
+}
+#header h1 {
+    font-size: 130px;
+    padding-top: 50px;
+}
+#navbar {
+    text-align: center
+}
+#navbar li {
+    display: inline-block;
+    margin: 12px 5px;
+}
+#navbar li a {
+    text-decoration: none;
+    color: #282147;
+    font-weight: bold;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 3px solid orange
+}
+#navbar li a:hover {
+    background: #e9f1f3;
+    transition: .4s;
+    color: rgb(39, 14, 63)
+}
+#profile_pic {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+h2 {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#personal, #work, #education, #skills {
+    width: 900px;
+    background-color: aquamarine;
+    border: 3px dashed darkblue;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+#personal {
+    padding-left: 20px;
+    height: 300px;
+    padding-top: 10px;
+    color: darkblue
+    
+}
+
+#personal h2 {
+    text-align: center;
+}
+
+#work {
+    background-image: url(work.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    color: whitesmoke;
+    padding-bottom: 20px
+
+    
+}
+#education {
+    color: whitesmoke;
+    background-image: url(education.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    height: 300px;
+}
+
+#skills {
+    color: whitesmoke;
+    background-image: url(skills.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+}
