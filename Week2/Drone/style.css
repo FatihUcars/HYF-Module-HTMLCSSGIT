@@ -1,0 +1,124 @@
+/* Global */
+/* <style> */
+@import url('https://fonts.googleapis.com/css?family=Asset|Erica+One&display=swap');
+/* </style> */
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+li {
+    border: 3px #FF686B solid;
+    width: 22%;
+    margin: 5px;
+    transition: background-color 1s;
+}
+
+li:hover {
+    background-color: #FFA69E;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: 95%;
+    border: 1px solid #FFA69E;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-image: url('./images/grids_header.jpeg');
+    color: rgb(226, 250, 10);
+    min-height: 40vh;
+    font-family: 'Asset', cursive;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2 {
+    background-image: url('./images/h2.jpeg');
+    font-family: 'Erica One', cursive;
+    font-size: 4rem;
+    min-height: 20vh;
+    margin-top: 5px;
+    text-align: center;
+    padding: 25px;
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+    height: 50px
+}
+
+p {
+    text-align: justify
+}
+
+h3, p {
+    padding: 7px
+}
+
+.grid-item {
+    background-color: #84DCC6;
+    color: #FFFFFF
+    
+}
+
+#grid-floats .grid-item {
+    float: left;
+    height: 530px;
+}
+
+li:nth-child(1) {
+    width: 45%;
+}
+
+/* Flex */
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    clear: both;
+}
+
+
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+    li {
+        width: 30%;
+    }
+    li:nth-child(1), li:nth-child(2) {width: 48%;}
+}
+
+
+/* Mobile Phones */
+@media only screen and (max-width: 600px) {
+    li {
+        width: 42%;
+    }
+    li:nth-child(1) {width: 97%;}
+}
+
