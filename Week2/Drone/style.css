@@ -14,6 +14,12 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-size: 15vw;
+    padding-top: 20px;
+
+}
+
 main {
     width: 90%;
     margin: 0 auto;
@@ -49,7 +55,7 @@ img {
 header {
     background-image: url('./images/grids_header.jpeg');
     color: rgb(226, 250, 10);
-    min-height: 40vh;
+    height: 30vw;
     font-family: 'Asset', cursive;
     font-size: 4rem;
     text-align: center;
@@ -58,8 +64,7 @@ header {
 h2 {
     background-image: url('./images/h2.jpeg');
     font-family: 'Erica One', cursive;
-    font-size: 4rem;
-    min-height: 20vh;
+    font-size: 9vw;;
     margin-top: 5px;
     text-align: center;
     padding: 25px;
@@ -81,7 +86,7 @@ h3, p {
 
 .grid-item {
     background-color: #84DCC6;
-    color: #FFFFFF
+    color: #FFFFFF;
     
 }
 
@@ -114,11 +119,14 @@ section {
 }
 
 
+
 /* Mobile Phones */
 @media only screen and (max-width: 600px) {
+    }
     li {
         width: 42%;
+        min-width: 250px;
     }
     li:nth-child(1) {width: 97%;}
-}
 
+    }
